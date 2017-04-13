@@ -13,7 +13,7 @@ if (isset($_FILES['file'])) {
 }
 
 //User key actions
-$rec_valid = false;
+$rec_valid = true;
 if (isset($_POST['g-recaptcha-response'])) {
     //Check reCAPTCHA
     $handle = curl_init('https://www.google.com/recaptcha/api/siteverify');
