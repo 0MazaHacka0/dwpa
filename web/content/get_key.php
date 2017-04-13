@@ -17,7 +17,6 @@ E-mail: <input class="searchinput" type="text" id="mail" name="mail" value="" />
 <div class="g-recaptcha" data-sitekey="';
 echo $publickey;
 echo '"></div>
-<br/><br/>
 <input class="submitbutton" type="submit" value="Get private key" />
 </form>
 ';
