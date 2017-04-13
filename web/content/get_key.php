@@ -11,10 +11,9 @@ if ($rec_valid) {
 Key is needed to see results for your uploaded handshakes. You may use one key with multiple uploads.<br/>
 If you provided valid e-mail and lost the key, new key will be assocciated with your previous submissions. This is not a mandatory field.<br/>
 When issued, the key will appear nest to search box and you can proceed with <a href="?submit">captures upload</a>.
-<script src="https://www.google.com/recaptcha/api.js"></script>
+
 <form class="form" action="" method="post">
 E-mail: <input class="searchinput" type="text" id="mail" name="mail" value="" />
-<br/><br/>
 <div class="g-recaptcha" data-sitekey="';
 echo $publickey;
 echo '"></div>
